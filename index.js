@@ -114,7 +114,7 @@ TiDocsBuild.prototype.createDoc = function (yml, then) {
     }
     
     var me = this;
-    var objdoc = [];
+    var objdoc = [ ];
     
 //    console.log(yml);
     
@@ -259,6 +259,15 @@ TiDocsBuild.prototype.createDoc = function (yml, then) {
     
     
 };
+
+
+console.log(
+    [
+        'var Titanium = {};\n\n',
+        'exports.Titanium = Titanium;\n\n' 
+    ].join('')
+);
+        
 
 
 var tidocs = new TiDocsBuild(config);

@@ -1,3 +1,8 @@
+var Titanium = {};
+
+exports.Titanium = Titanium;
+
+
 /**
 * @extends Titanium.Module
 * @since 0.1
