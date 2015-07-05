@@ -1,8 +1,9 @@
 nb-titanium-autocomplete
 ===
 
-Titanium API autocomplete for Netbeans 
+Titanium API autocomplete for Netbeans (and maybe other IDE)
 
+![](https://github.com/muka/nb-titanium-autocomplete/blob/master/docs/screenshot.jpg)
 
 Usage
 ###
@@ -10,7 +11,7 @@ Usage
 Add `titanium-api.js` to your netbeans project
 
 
-Generate
+Regenerate
 ###
 
 Run `build.sh`
